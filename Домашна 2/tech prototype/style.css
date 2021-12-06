@@ -1,0 +1,102 @@
+html{
+    background: url("images/bck1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  
+  .btn {
+    background: #226667;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;;
+    color: #ffffff;
+    font-size: 26px;
+    padding: 10px 20px 10px 20px;
+    text-decoration:double; 
+  }
+  
+  .btn:hover {
+    background: #0084a5;
+   
+    text-decoration: none;
+  }
+
+  #info{
+   
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top: 50px;
+    right:80px;
+  }
+
+  #login{
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top: 50px;;
+    right: 230px;
+  }
+  
+  .search-container input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+
+    background: white;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #226667;
+    font-size: 26px;
+    padding: 10px 20px 10px 20px;
+    text-decoration:double; 
+  }
+
+  
+
+  #search{
+    width: 455px;
+    margin-top: 350px;
+    margin-left:50px;
+    position:absolute;
+    bottom: 80px;;
+    left:40px;
+  }
+
+  h1{
+    color:white;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 350px;
+    margin-left:50px;
+    position:absolute;
+    bottom: 160px;;
+    left:40px;
+  }
+ 
+  p1{
+      color:black;
+      font-size: 22px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 350px;
+      margin-left:50px;
+      position:absolute;
+      bottom: 150px;;
+      left:40px;
+    }
