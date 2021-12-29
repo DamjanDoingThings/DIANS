@@ -1,0 +1,89 @@
+#login{
+    background-image: url('/assets/images/2.jpg');
+    height: 100%;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#signInForm{
+    height: 100%;
+    background-color: white;
+    filter:opacity(80%);
+
+    
+	position: absolute;
+	top: 400px;
+	left: 50%;
+    
+	margin: -250px 0 0 -250px;
+	width: 500px;
+	height: 500px;
+	text-align: center;
+    border-radius: 20px;
+} 
+
+h1{
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    margin-top:60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    font-size:25px;
+    background-color: #114E79;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    text-decoration:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    
+}
+#one, #two, #three, #four, #five{
+    position: relative;
+             display: block;
+             width: 300px;
+             
+             font-size: 30px;
+             margin-left: 100px;
+             margin-right: 100px;
+             
+}
+
+
+
+button {
+  
+    
+    outline:none;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 150px;
+    border-radius:40px;
+    background: #114E79;
+    border: none;
+    color:white;
+    letter-spacing:1px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    
+    text-shadow:0;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-top: 20px;
+    &:hover {
+      color:white;
+      background: #3984b9;
+    }
+    &:active {
+      letter-spacing: 2px ;
+    }
+  
+  }

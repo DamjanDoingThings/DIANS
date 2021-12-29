@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/380720fc-4bf2-40aa-94fe-870271dbb6aa/resourceGroups/FindMyPharmacy/providers/Microsoft.Web/sites/fmp-web",
+    "appService.deploySubpath": "."
+}

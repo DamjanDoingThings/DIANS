@@ -1,0 +1,123 @@
+html,body{
+    background-color: #6CC0CB;
+    background-size: 100%;
+    background-size: cover;
+}
+#login{
+    background-image: url('/assets/images/bck4.jpg');
+    height: 100%;
+    // background-size: 100%;
+    // background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+#signInForm{
+    height: 100%;
+    background-image: url('/assets/images/bck5.png');
+    background-size: 100%;
+    background-size: cover;
+    
+
+    
+	position: absolute;
+	top: 30%;
+	left: 50%;
+    
+	margin: -150px 0 0 -150px;
+	width: 300px;
+	height: 500px;
+	text-align: center;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    margin-top:60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    font-size:25px;
+    background-color: #114E79;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    text-decoration:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    
+}
+
+
+#one{
+    margin-top: 170px;
+    background-color: transparent;
+    color:white;
+}
+#two{
+    margin-top: 10px;
+    background-color: transparent;
+    color:white;
+}
+
+
+#inputEmail, #inputPassword{
+    height: 40px;
+    background-color: transparent;
+    text-decoration: none;
+    
+    
+}
+input{
+    background-color: transparent;
+    text-decoration: none;
+    
+    
+}
+
+button {
+  
+  
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: none;
+  color:black;
+  letter-spacing:1px;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  text-shadow:0;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin-top: 20px;
+  &:hover {
+    color:white;
+    background: #114E79;
+  }
+  &:active {
+    letter-spacing: 2px ;
+  }
+
+}
+
+#new{
+    position: absolute;
+    left:610px;
+    bottom:93px;
+    
+    
+    
+}
+
+#reg{
+    position: absolute;
+    left: 703px;
+    bottom: 50px;
+    
+}

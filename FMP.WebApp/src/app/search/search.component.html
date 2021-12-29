@@ -1,0 +1,27 @@
+<head>
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+</head>
+
+<div class="full">
+    <h2 id="head">Find My Pharmacy</h2>
+    <form>
+    <div class="form">
+      <input #keyword type="search" id="search" name="search" [(ngModel)]="searchKeyword"  placeholder="{{'search' | translate}}" >
+
+      <button id="mg" type="submit" (click)="searchTerm()"  ><i class="fa fa-search-plus" style="height: 50px; width: 50px;"></i></button>
+    </div>
+</form>
+
+<form class="backgr">
+<ul class="pharmacies">
+  <li *ngFor="let pharmacy of pharmacies">
+    <span class="badge">{{pharmacy.pharmacy.name}}</span> {{pharmacy.distanceFromOrigin | number:'1.0-1'}} km 
+    <a id="dir" href="{{getGoogleMapsPin(pharmacy.pharmacy.locationCoordinate)}}"> Насоки </a>
+  </li>
+</ul>
+
+</form>
+
+</div>
+
+

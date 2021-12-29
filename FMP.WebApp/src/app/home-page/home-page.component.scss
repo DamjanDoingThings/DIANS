@@ -1,0 +1,69 @@
+.btn {
+    background: #06356B;
+    border:none;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 26px;
+    padding: 10px 28px 10px 28px;
+    text-decoration:double; 
+    letter-spacing: 1px ;
+  }
+  
+  .btn:hover {
+    background: #0084a5;
+   
+    text-decoration: none;
+  }
+
+  #info{
+   
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    bottom: 40px;
+    left:250px;
+  }
+
+  #login{
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    bottom: 40px;;
+    left: 40px;
+  }
+  
+   #welcome{
+    margin-top:0px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 320px;;
+    left:40px;
+    color: white;
+   }
+   #head{
+    color:white;
+    font-size: 59px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 225px; 
+    //bottom: 55px;
+    left:35px;
+  }
+ 
+    #sect1 {
+        height: 100%;
+        background-image: url('/assets/images/bck8.jpg');
+        background-size: 100%;
+        background-size: cover;
+        
+      }
+
+    

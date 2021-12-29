@@ -1,0 +1,156 @@
+.full{
+    height: 100%;
+    background-image: url(/assets/images/bck10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#head{
+    color:#043779;
+    font-size: 100px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 520px; 
+    //bottom: 55px;
+    left:500px;
+  }
+
+  #search{
+      position: absolute;
+      top:150px;
+      right: 80px;
+      height: 80px;
+      width: 500px;
+      border-radius: 50px;
+      font-size: 30px;
+      font-family: 'Playfair Display SC', serif;
+      padding-left: 35px;
+      padding-right: 20px;
+      border-color: #043779;
+      border-width:thick;
+      border-style: solid;
+  }
+
+  #mg{
+    height: 50px;
+    width: 50px;
+    border-radius: 900px;
+    position: absolute;
+    right: 98px;
+    top:166px;
+    background-color: white;
+    border-color: #043779;
+    border-style: solid;
+    border-width: 5px;
+  }
+
+  #mg:hover{
+    background-color: #043779;
+  }
+
+  .fa{
+    
+    display:inline;
+  }
+
+ 
+
+  .backgr{
+    background-color: white;
+    
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    right: 80px;
+    bottom:200px;
+    border-radius: 50px;
+    filter:opacity(90%);
+
+  }
+
+  .pharmacies{
+    margin: 0 0 32px 0;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top:35px;
+    left:15px;
+    font-family: 'Playfair Display SC', serif;
+    
+    
+  }
+
+  .pharmacies li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: 8px;
+    padding: 5px 0;
+    height: 	26px;
+    width: 350px;
+    border-radius: 20px;
+  }
+  .pharmacies li:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+    left: 	1.6 px;
+  }
+  .pharmacies li.selected {
+    background-color: black;
+    color: white;
+  }
+  .pharmacies li.selected:hover {
+    background-color: #505050;
+    color: white;
+  }
+  .pharmacies li.selected:active {
+    background-color: black;
+    color: white;
+  }
+
+  .pharmacies .badge {
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    padding: 8px 11px 0 11px;
+    background-color:#405061;
+    line-height: 16px;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 26px;
+    width: 65%;
+    margin-right: 13px;
+    border-radius: 20px 0 0 20px;
+  }
+
+  
+#dir{
+  position: absolute;
+  display: inline-flex;
+  background-color: white;
+    border-color: #043779;
+    border-style: solid;
+    border-width: 5px;
+  font-size: 20px;
+  border-radius: 20px;
+  right:-110px;
+  bottom:1px;
+  
+}
+
+#dir:hover{
+  background-color: gray;
+}
+
+ #dir:any-link{
+   text-decoration: none;
+   color:black;
+   font-family: 'Playfair Display SC', serif;
+   font-size: 18px;
+   padding: 2px 10px 2px 10px ;
+ }
+

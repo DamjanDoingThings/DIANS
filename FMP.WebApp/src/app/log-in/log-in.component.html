@@ -1,0 +1,44 @@
+<div>
+    
+    <h1 id="new">Нов корисник?</h1>
+    <a routerLink="/registration">
+    <button id="reg" type="submit">Регистрирај се</button>
+    </a>
+</div>
+<div class="login" id="login">
+    
+    <form id="signInForm" #signInForm="ngForm">
+        <h1 style=" letter-spacing: 5px;">Најава</h1>
+
+        <mat-error *ngIf="isFormInvalid" style="margin-bottom: 5px;">
+            Пополнете ги сите полиња
+        </mat-error>
+
+        <mat-form-field appearance="outline" id="one" style="text-decoration: none;">
+
+            
+            <input matInput type="email" id="inputEmail" name="email" [(ngModel)]="username" required placeholder="Корисничко име"/>
+            
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" id="two">
+
+            
+            <input matInput type="password" id="inputPassword" name="password" [(ngModel)]="password" required placeholder="Лозинка"/>
+           
+        </mat-form-field>
+
+        <mat-error *ngIf="areCredentialsInvalid">
+            Погрешно корисничко име или лозинка
+        </mat-error>
+
+        <a>
+        <button (click)="onSubmit()" >Најави се</button>
+        </a>
+    </form>
+
+
+
+
+</div>
+
