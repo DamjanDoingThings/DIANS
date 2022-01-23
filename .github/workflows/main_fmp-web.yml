@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'fmp-web'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_15FB2B83827F415C9ACFEF614468CADF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22AC03432F2C43E8A71D9F86D18DBA37 }}
           package: .
